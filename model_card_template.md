@@ -3,7 +3,9 @@
 For additional information see the Model Card paper: https://arxiv.org/pdf/1810.03993.pdf
 
 ## Model Details
-This project uses a machine learning model to predict whether a person's annual income is greater than $50,000 based on census data. The model was trained using the Adult Census Income dataset and implemented in Python using scikit-learn. Categorical features were processed using one-hot encoding, and the target variable was converted into a binary format for classification.
+This project uses a Random Forest Classifier to predict whether a person's annual income is greater than $50,000 based on census data. The model was trained using the Adult Census Income dataset and implemented in Python using scikit-learn. The Random Forest algorithm was selected because it performs well on classification problems and can capture complex relationships between features without extensive feature engineering.
+
+Categorical features were processed using one-hot encoding, and the target variable was converted into a binary format for classification.
 
 The model was developed as part of the Udacity Machine Learning DevOps program and deployed using FastAPI.
 
